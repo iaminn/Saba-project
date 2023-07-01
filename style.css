@@ -1,0 +1,36 @@
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .buttons {
+    margin-top: 10px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  button {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:nth-child(4) {
+    background-color: orange;
+    color: white;
+  }
+  
+  button:last-child {
+    background-color: green;
+    color: white;
+  }
